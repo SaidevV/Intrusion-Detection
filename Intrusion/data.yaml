@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['intrusion detected']
+
+roboflow:
+  workspace: sdev-v
+  project: home-intrusion-detection-f84nu
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/sdev-v/home-intrusion-detection-f84nu/dataset/1
